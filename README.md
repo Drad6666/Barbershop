@@ -8,7 +8,6 @@
         rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -93,13 +92,15 @@
 
             <section class="gallery">
                 <h2>Фотогалерея</h2>
-                <figure class="gallery-content">
-                    <a href="#">
-                        <img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
-                    </a>
-                </figure>
-                <button class="button gallery-button gallery-button-back" type="button">Назад</button>
-                <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+                <div class="gallery-conteiner">
+                    <figure class="gallery-content">
+                        <a href="#">
+                            <img src="img/index-logo.jpg" width="286" height="164" alt="Интерьер">
+                        </a>
+                    </figure>
+                    <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+                    <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+                </div>
             </section>
         </div>
 
